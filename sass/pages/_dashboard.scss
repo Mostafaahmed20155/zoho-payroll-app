@@ -1,0 +1,279 @@
+main {
+  display: flex;
+}
+
+.left-column {
+  width: 15.625%;
+  // height: 90rem;
+  // background-color: orangered;
+
+  &__profile {
+    width: 100%;
+    min-height: 25rem;
+    background-color: $color-primary;
+    border-radius: 0.5rem;
+    @include dropShadow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .profile-pic {
+      width: 10rem;
+      height: 10rem;
+      border-radius: 50rem;
+    }
+    .user-name {
+      margin-top: 1.5rem;
+    }
+    .job-title {
+      margin-top: 1rem;
+      color: #676767;
+    }
+  }
+
+  &__options {
+    width: 100%;
+    min-height: 40rem;
+    background-color: $color-primary;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    a {
+      text-align: center;
+      height: 2rem;
+      width: 100%;
+      padding: 2rem 0;
+      text-decoration: none;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: black;
+      transition: all 0.2s;
+      &:hover {
+        background-color: #ffbebe;
+      }
+    }
+    .selected {
+      background-color: #f5f5f5;
+    //   border-left: 1.5rem solid $color-secondary;
+    }
+    .option-1 {
+      border-radius: 0 0.5rem 0 0;
+    }
+  }
+}
+
+.right-column {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 84.375%;
+  // min-height: 40rem;
+//   background-color: blueviolet;
+  padding: 3rem;
+  &__search-bar {
+    width: 45%;
+    height: 7rem;
+    border-radius: 0.5rem;
+    @include dropShadow;
+    background-color: $color-primary;
+    display: flex;
+    justify-items: center;
+    align-content: center;
+    .search-icon {
+      margin-left: 5rem;
+    }
+    form {
+      display: flex;
+      justify-items: center;
+      align-content: center;
+      width: 100%;
+      input {
+        width: 100%;
+        padding: 2rem;
+        border-radius: 0.5rem;
+        outline: none;
+        // margin-left: auto;
+        border: none;
+        font-size: 1.5rem;
+        font-weight: 500;
+        font-family: inherit;
+      }
+    }
+  }
+  &__reporting-to {
+    width: 45%;
+    height: 18rem;
+    border-radius: 0.5rem;
+    @include dropShadow;
+    background-color: $color-primary;
+    margin-left: 3rem;
+
+    .reporting-to-person {
+        height: 10rem;
+        // background-color: $color-secondary;
+        margin-top: 1rem;
+        display: flex;
+        margin-top: 3rem;
+        margin-left: 3rem;
+        .reported-person-profile {
+            width: 5rem;
+            height: 5rem;
+            border-radius: 50%;
+        }
+        .reported-person-info {
+            margin-left: 2rem;
+            .reported-person-name {
+                font-size: 1.2rem;
+                font-weight: 600;
+            }
+            .reported-person-job {
+                font-size: 1.2rem;
+                font-weight: 600;
+                color: #676767;
+                margin-top: 1.5rem;
+            }
+        }
+    }
+  }
+  &__about-me {
+    width: 45%;
+    height: 32.6rem;
+    border-radius: 0.5rem;
+    @include dropShadow;
+    background-color: $color-primary;
+    margin-right: 3rem;
+    margin-top: -8rem;
+    display: flex;
+    flex-direction: column;
+    .about-me-info {
+        // background-color: orangered;
+        min-height: 5rem;
+        padding: 0 8rem;
+        margin-top: 4.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 4rem;
+        .single-info {
+            // width: 20rem;     
+            width: 50%;
+            height: 3.5rem;
+            background-color: $color-primary;
+            display: flex;
+            
+            align-items: center;
+            &:nth-child(3) , &:nth-child(4) {
+                margin-top: 3rem;
+            }
+            h1 {
+                font-size: 1.2rem;
+                font-weight: 500;
+                margin-left: 1.5rem;
+            }
+        }
+    }
+    .horizontal-line {
+        width: 80%;
+        align-self: center;
+        border-top: 1px dashed #E2E2E2;
+        
+    }
+    .add-info {
+        min-height: 4rem;
+        // background-color: blueviolet;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+
+        &__icon {
+            margin-top: 3rem;
+            cursor: pointer;
+        }
+    }
+  }
+  &__basic-info {
+    width: 45%;
+    min-height: 47.1rem;
+    border-radius: 0.5rem;
+    @include dropShadow;
+    background-color: $color-primary;
+    margin-top: 3rem;
+    .row-info {
+        height: 3.5rem;
+        // background-color: blueviolet;
+        padding: 0.5rem 6.2rem;
+        display: flex;
+        align-items: center;
+        // justify-content: space-between;
+        border-bottom: 0.1rem dashed #E2E2E2;
+        .label {
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: #676767;
+        }
+        .value {
+            font-size: 1.5rem;
+            font-weight: 500;
+            text-align: center;
+            margin-left: auto;
+        }
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+  }
+  &__financial-status {
+    width: 45%;
+    height: 32.6rem;
+    border-radius: 0.5rem;
+    @include dropShadow;
+    background-color: $color-primary;
+    margin-right: 3rem;
+    margin-top: -22rem;
+    .container {
+        width: 100%;
+        min-height: 10rem;
+        // background-color: orangered;
+        margin-top: 4.5rem;
+        display: flex;
+        justify-content: space-around;
+        .finance-info-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            // background-color: orange;
+            .finance-title {
+                font-size: 1.5rem;
+                color: #676767;
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+            }
+            .finance-value {
+                font-size: 1.5rem;
+                
+            }
+        }
+    }
+  }
+}
+
+//COMPONENT
+.container-header {
+    font-size: 1.5rem;
+    font-weight: 700;
+    position: relative;
+    padding-left: 3rem;
+    margin-top: 3rem;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 1rem;
+      height: 100%;
+      background-color: $color-secondary;
+      border-radius: 0 1rem 1rem 0;
+    }
+  }

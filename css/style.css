@@ -1,0 +1,234 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  background-color: #F5F5F5; }
+
+body {
+  font-family: 'Montserrat', sans-serif; }
+
+.u-margin-top-small {
+  margin-top: 3rem; }
+
+main {
+  display: flex; }
+
+.left-column {
+  width: 15.625%; }
+  .left-column__profile {
+    width: 100%;
+    min-height: 25rem;
+    background-color: #FFFFFF;
+    border-radius: 0.5rem;
+    box-shadow: 0rem 0.6rem 3rem rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .left-column__profile .profile-pic {
+      width: 10rem;
+      height: 10rem;
+      border-radius: 50rem; }
+    .left-column__profile .user-name {
+      margin-top: 1.5rem; }
+    .left-column__profile .job-title {
+      margin-top: 1rem;
+      color: #676767; }
+  .left-column__options {
+    width: 100%;
+    min-height: 40rem;
+    background-color: #FFFFFF;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+    .left-column__options a {
+      text-align: center;
+      height: 2rem;
+      width: 100%;
+      padding: 2rem 0;
+      text-decoration: none;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: black;
+      transition: all 0.2s; }
+      .left-column__options a:hover {
+        background-color: #ffbebe; }
+    .left-column__options .selected {
+      background-color: #f5f5f5; }
+    .left-column__options .option-1 {
+      border-radius: 0 0.5rem 0 0; }
+
+.right-column {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 84.375%;
+  padding: 3rem; }
+  .right-column__search-bar {
+    width: 45%;
+    height: 7rem;
+    border-radius: 0.5rem;
+    box-shadow: 0rem 0.6rem 3rem rgba(0, 0, 0, 0.06);
+    background-color: #FFFFFF;
+    display: flex;
+    justify-items: center;
+    align-content: center; }
+    .right-column__search-bar .search-icon {
+      margin-left: 5rem; }
+    .right-column__search-bar form {
+      display: flex;
+      justify-items: center;
+      align-content: center;
+      width: 100%; }
+      .right-column__search-bar form input {
+        width: 100%;
+        padding: 2rem;
+        border-radius: 0.5rem;
+        outline: none;
+        border: none;
+        font-size: 1.5rem;
+        font-weight: 500;
+        font-family: inherit; }
+  .right-column__reporting-to {
+    width: 45%;
+    height: 18rem;
+    border-radius: 0.5rem;
+    box-shadow: 0rem 0.6rem 3rem rgba(0, 0, 0, 0.06);
+    background-color: #FFFFFF;
+    margin-left: 3rem; }
+    .right-column__reporting-to .reporting-to-person {
+      height: 10rem;
+      margin-top: 1rem;
+      display: flex;
+      margin-top: 3rem;
+      margin-left: 3rem; }
+      .right-column__reporting-to .reporting-to-person .reported-person-profile {
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%; }
+      .right-column__reporting-to .reporting-to-person .reported-person-info {
+        margin-left: 2rem; }
+        .right-column__reporting-to .reporting-to-person .reported-person-info .reported-person-name {
+          font-size: 1.2rem;
+          font-weight: 600; }
+        .right-column__reporting-to .reporting-to-person .reported-person-info .reported-person-job {
+          font-size: 1.2rem;
+          font-weight: 600;
+          color: #676767;
+          margin-top: 1.5rem; }
+  .right-column__about-me {
+    width: 45%;
+    height: 32.6rem;
+    border-radius: 0.5rem;
+    box-shadow: 0rem 0.6rem 3rem rgba(0, 0, 0, 0.06);
+    background-color: #FFFFFF;
+    margin-right: 3rem;
+    margin-top: -8rem;
+    display: flex;
+    flex-direction: column; }
+    .right-column__about-me .about-me-info {
+      min-height: 5rem;
+      padding: 0 8rem;
+      margin-top: 4.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: 4rem; }
+      .right-column__about-me .about-me-info .single-info {
+        width: 50%;
+        height: 3.5rem;
+        background-color: #FFFFFF;
+        display: flex;
+        align-items: center; }
+        .right-column__about-me .about-me-info .single-info:nth-child(3), .right-column__about-me .about-me-info .single-info:nth-child(4) {
+          margin-top: 3rem; }
+        .right-column__about-me .about-me-info .single-info h1 {
+          font-size: 1.2rem;
+          font-weight: 500;
+          margin-left: 1.5rem; }
+    .right-column__about-me .horizontal-line {
+      width: 80%;
+      align-self: center;
+      border-top: 1px dashed #E2E2E2; }
+    .right-column__about-me .add-info {
+      min-height: 4rem;
+      display: flex;
+      justify-content: center;
+      align-content: center; }
+      .right-column__about-me .add-info__icon {
+        margin-top: 3rem;
+        cursor: pointer; }
+  .right-column__basic-info {
+    width: 45%;
+    min-height: 47.1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0rem 0.6rem 3rem rgba(0, 0, 0, 0.06);
+    background-color: #FFFFFF;
+    margin-top: 3rem; }
+    .right-column__basic-info .row-info {
+      height: 3.5rem;
+      padding: 0.5rem 6.2rem;
+      display: flex;
+      align-items: center;
+      border-bottom: 0.1rem dashed #E2E2E2; }
+      .right-column__basic-info .row-info .label {
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #676767; }
+      .right-column__basic-info .row-info .value {
+        font-size: 1.5rem;
+        font-weight: 500;
+        text-align: center;
+        margin-left: auto; }
+      .right-column__basic-info .row-info:last-child {
+        border-bottom: none; }
+  .right-column__financial-status {
+    width: 45%;
+    height: 32.6rem;
+    border-radius: 0.5rem;
+    box-shadow: 0rem 0.6rem 3rem rgba(0, 0, 0, 0.06);
+    background-color: #FFFFFF;
+    margin-right: 3rem;
+    margin-top: -22rem; }
+    .right-column__financial-status .container {
+      width: 100%;
+      min-height: 10rem;
+      margin-top: 4.5rem;
+      display: flex;
+      justify-content: space-around; }
+      .right-column__financial-status .container .finance-info-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        .right-column__financial-status .container .finance-info-card .finance-title {
+          font-size: 1.5rem;
+          color: #676767;
+          margin-top: 2rem;
+          margin-bottom: 2rem; }
+        .right-column__financial-status .container .finance-info-card .finance-value {
+          font-size: 1.5rem; }
+
+.container-header {
+  font-size: 1.5rem;
+  font-weight: 700;
+  position: relative;
+  padding-left: 3rem;
+  margin-top: 3rem; }
+  .container-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1rem;
+    height: 100%;
+    background-color: #FF4C2F;
+    border-radius: 0 1rem 1rem 0; }
