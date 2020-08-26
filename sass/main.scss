@@ -1,11 +1,16 @@
 //ABSTRACT
 @import "abstract/mixins";
 @import "abstract/variables";
+@import "abstract/components";
+
 
 //BASE
 @import "base/base";
 @import "base/typography";
 @import "base/utilities";
+
+//LAYOUT
+@import "layout/responsiveness";
 
 //PAGES
 @import "pages/dashboard";
