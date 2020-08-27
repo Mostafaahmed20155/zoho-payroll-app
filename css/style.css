@@ -14,6 +14,35 @@
     background-color: #FF4C2F;
     border-radius: 0 1rem 1rem 0; }
 
+.finance-card {
+  width: 45%;
+  height: 32.6rem;
+  border-radius: 0.5rem;
+  box-shadow: 0rem 0.6rem 3rem rgba(0, 0, 0, 0.06);
+  background-color: #FFFFFF;
+  margin-right: 3rem; }
+  .finance-card .container {
+    width: 100%;
+    min-height: 10rem;
+    margin-top: 4.5rem;
+    display: flex;
+    justify-content: space-around; }
+    .finance-card .container .finance-info-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .finance-card .container .finance-info-card .finance-icon {
+        width: 5rem;
+        height: 5rem; }
+      .finance-card .container .finance-info-card .finance-title {
+        font-size: 1.5rem;
+        color: #676767;
+        margin-top: 2rem;
+        margin-bottom: 2rem; }
+      .finance-card .container .finance-info-card .finance-value {
+        font-size: 1.5rem; }
+
 *,
 *::before,
 *::after {
@@ -30,8 +59,23 @@ body {
 body {
   font-family: 'Montserrat', sans-serif; }
 
+.u-margin-top-xs {
+  margin-top: 2.5rem; }
+
 .u-margin-top-small {
   margin-top: 3rem; }
+
+.u-margin-top-n {
+  margin-top: -22rem; }
+
+.u-margin-right-sm {
+  margin-right: 3rem; }
+
+.u-width-enlargement {
+  width: 60% !important; }
+
+.u-width-smallen {
+  width: 30% !important; }
 
 @media only screen and (max-width: 1200px) {
   html {
@@ -216,8 +260,7 @@ main {
     border-radius: 0.5rem;
     box-shadow: 0rem 0.6rem 3rem rgba(0, 0, 0, 0.06);
     background-color: #FFFFFF;
-    margin-right: 3rem;
-    margin-top: -22rem; }
+    margin-right: 3rem; }
     .right-column__financial-status .container {
       width: 100%;
       min-height: 10rem;
@@ -239,3 +282,198 @@ main {
           margin-bottom: 2rem; }
         .right-column__financial-status .container .finance-info-card .finance-value {
           font-size: 1.5rem; }
+
+.right-column__salary-history {
+  width: 92%;
+  min-height: 50rem;
+  border-radius: 0.5rem;
+  box-shadow: 0rem 0.6rem 3rem rgba(0, 0, 0, 0.06);
+  background-color: #FFFFFF;
+  margin-top: 3rem;
+  position: relative; }
+  .right-column__salary-history .btn {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    padding: 1.2rem 2rem;
+    border-radius: 0 0 1.5rem 1.5rem;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 1.4rem;
+    cursor: pointer; }
+    .right-column__salary-history .btn__current-month {
+      top: 0;
+      right: 20%;
+      color: #000000;
+      margin-right: 4rem;
+      background-color: #f5f0f0; }
+    .right-column__salary-history .btn__select-date {
+      background-color: #f5f0f0;
+      top: 0;
+      right: 10%;
+      color: #000000;
+      padding: 1.2rem 2.5rem; }
+    .right-column__salary-history .btn__selected {
+      background-color: #FF4C2F;
+      color: #FFFFFF; }
+  .right-column__salary-history .salary-history__table {
+    margin-top: 4.5rem;
+    padding: 0 3rem; }
+    .right-column__salary-history .salary-history__table-headers {
+      display: flex;
+      align-items: center;
+      border-bottom: 0.1rem solid #cfcfcf;
+      padding-bottom: 1rem; }
+      .right-column__salary-history .salary-history__table-headers .table-checkbox {
+        margin-right: 1.4rem; }
+      .right-column__salary-history .salary-history__table-headers .table-header {
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: #cfcfcf; }
+        .right-column__salary-history .salary-history__table-headers .table-header:not(:last-child) {
+          margin-right: 10%; }
+        .right-column__salary-history .salary-history__table-headers .table-header:last-child {
+          margin-left: auto; }
+    .right-column__salary-history .salary-history__table-row {
+      display: flex;
+      align-items: center;
+      padding-bottom: 1rem;
+      margin-top: 1rem; }
+      .right-column__salary-history .salary-history__table-row:not(:last-child) {
+        border-bottom: 0.1rem solid #cfcfcf; }
+      .right-column__salary-history .salary-history__table-row:last-child {
+        margin-bottom: 3rem; }
+      .right-column__salary-history .salary-history__table-row .table-checkbox {
+        margin-right: 1.4rem; }
+      .right-column__salary-history .salary-history__table-row .table-value {
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: #000000; }
+        .right-column__salary-history .salary-history__table-row .table-value:not(:last-child) {
+          margin-right: 10%; }
+        .right-column__salary-history .salary-history__table-row .table-value:last-child {
+          margin-left: auto; }
+  .right-column__salary-history .pagination {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem; }
+    .right-column__salary-history .pagination p {
+      font-size: 1.4rem;
+      font-weight: 600; }
+    .right-column__salary-history .pagination .left-arrow, .right-column__salary-history .pagination .right-arrow {
+      width: 1rem;
+      cursor: pointer; }
+    .right-column__salary-history .pagination .left-arrow {
+      margin-right: 3rem; }
+    .right-column__salary-history .pagination .right-arrow {
+      margin-left: 3rem; }
+
+.right-column__leave-request {
+  width: 100%;
+  min-height: 8rem;
+  background-color: #FFFFFF;
+  border-radius: 0.5rem;
+  box-shadow: 0rem 0.6rem 3rem rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between; }
+  .right-column__leave-request .btn-apply-now {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1.2rem 4.5rem;
+    border-radius: 0.5rem;
+    background-color: #FF4C2F;
+    color: #FFFFFF;
+    align-self: center;
+    margin-right: 2rem;
+    transition: all 0.2s; }
+    .right-column__leave-request .btn-apply-now:hover {
+      background-color: #ab3825; }
+
+.right-column__leaves-cards {
+  width: 100%;
+  height: 30rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between; }
+  .right-column__leaves-cards .leave-card {
+    width: 15%;
+    background-color: #FFFFFF;
+    border-radius: 0.5rem; }
+    .right-column__leaves-cards .leave-card__info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 5rem; }
+      .right-column__leaves-cards .leave-card__info .leave-icon {
+        width: 6rem;
+        height: 6rem;
+        margin-bottom: 5rem; }
+      .right-column__leaves-cards .leave-card__info .row-data {
+        display: flex;
+        justify-content: space-between;
+        width: 80%; }
+        .right-column__leaves-cards .leave-card__info .row-data:not(:last-child) {
+          margin-bottom: 1.5rem; }
+        .right-column__leaves-cards .leave-card__info .row-data .row-title {
+          font-size: 1.5rem;
+          font-weight: 500; }
+        .right-column__leaves-cards .leave-card__info .row-data .row-value {
+          font-size: 1.5rem;
+          font-weight: 600; }
+
+.right-column__leave-requests {
+  width: 100%;
+  min-height: 30rem;
+  background-color: #FFFFFF;
+  border-radius: 0.5rem;
+  margin-top: 3rem;
+  position: relative;
+  box-shadow: 0rem 0.6rem 3rem rgba(0, 0, 0, 0.06); }
+  .right-column__leave-requests .btn {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    padding: 1.2rem 2rem;
+    border-radius: 0 0 1.5rem 1.5rem;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 1.4rem;
+    cursor: pointer; }
+    .right-column__leave-requests .btn__upcoming {
+      background-color: #f5f0f0;
+      top: 0;
+      right: 20%;
+      color: #000000; }
+    .right-column__leave-requests .btn__history {
+      background-color: #f5f0f0;
+      top: 0;
+      right: 10%;
+      color: #000000;
+      padding: 1.2rem 2.5rem; }
+    .right-column__leave-requests .btn__selected {
+      background-color: #FF4C2F;
+      color: #FFFFFF; }
+  .right-column__leave-requests .row-leave-request {
+    width: 100%;
+    min-height: 7rem;
+    padding: 0 3rem;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border-top: 0.1rem dashed #CFCFCF; }
+    .right-column__leave-requests .row-leave-request .date-icon {
+      width: 1.7rem;
+      height: 1.7rem; }
+    .right-column__leave-requests .row-leave-request .date-day {
+      font-size: 1.5rem;
+      font-weight: 500;
+      color: #676767;
+      margin-left: 3rem; }
+    .right-column__leave-requests .row-leave-request .holiday-name {
+      font-size: 1.5rem;
+      font-weight: 500;
+      color: #676767;
+      margin-left: 20rem; }

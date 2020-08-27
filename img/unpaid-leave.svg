@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="63.858" height="48.844" viewBox="0 0 63.858 48.844">
+  <g id="unpaid-leave" transform="translate(0 -60.189)">
+    <path id="Path_84" data-name="Path 84" d="M0,69.166H13.763v6.565H0Z" transform="translate(0 -7.857)" fill="#ff4c2f"/>
+    <path id="Path_85" data-name="Path 85" d="M0,151.8H13.763v6.121H0Z" transform="translate(0 -80.188)" fill="#ff4c2f"/>
+    <path id="Path_86" data-name="Path 86" d="M140.351,151.8h14.53v6.121h-14.53Z" transform="translate(-122.846 -80.188)" fill="#ff4c2f"/>
+    <path id="Path_87" data-name="Path 87" d="M211.21,289.2a6.277,6.277,0,1,0,6.276,6.277A6.284,6.284,0,0,0,211.21,289.2Z" transform="translate(-179.374 -200.444)" fill="#ff4c2f"/>
+    <path id="Path_88" data-name="Path 88" d="M484.254,244.128a8.362,8.362,0,0,0,3.461,1.718v-4.7A16.8,16.8,0,0,1,484.254,244.128Z" transform="translate(-423.856 -158.391)" fill="#ff4c2f"/>
+    <path id="Path_89" data-name="Path 89" d="M0,403.707v6H5.84A7.953,7.953,0,0,0,0,403.707Z" transform="translate(0 -300.673)" fill="#ff4c2f"/>
+    <path id="Path_90" data-name="Path 90" d="M463.7,409.687h6.025v-6A8.147,8.147,0,0,0,463.7,409.687Z" transform="translate(-405.862 -300.654)" fill="#ff4c2f"/>
+    <path id="Path_91" data-name="Path 91" d="M63.858,241.378a11.918,11.918,0,0,1-6.974-3.757,15.917,15.917,0,0,1-18.418-5.928H9.617A11.7,11.7,0,0,1,0,241.374v7.957a11.521,11.521,0,0,1,6.371,3.279A11.617,11.617,0,0,1,9.619,259H54.056a11.869,11.869,0,0,1,9.8-9.67v-7.955Zm-47.02,5.878H12.56v-3.737h4.278Zm15,7.9a10.013,10.013,0,1,1,10.013-10.013A10.024,10.024,0,0,1,31.836,255.154Zm19.722-7.9H47.28v-3.737h4.278Z" transform="translate(0 -150.113)" fill="#ff4c2f"/>
+    <path id="Path_92" data-name="Path 92" d="M5.859,229.884H0v6.095A7.961,7.961,0,0,0,5.859,229.884Z" transform="translate(0 -148.53)" fill="#ff4c2f"/>
+    <path id="Path_93" data-name="Path 93" d="M354.921,117.733a12.3,12.3,0,0,0,17.2-17.2Z" transform="translate(-310.654 -35.31)" fill="#ff4c2f"/>
+    <path id="Path_94" data-name="Path 94" d="M316.968,79.78l17.2-17.2a12.3,12.3,0,0,0-17.2,17.2Z" transform="translate(-275.344)" fill="#ff4c2f"/>
+  </g>
+</svg>

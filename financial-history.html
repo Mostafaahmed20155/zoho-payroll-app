@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Financial History</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="left-column">
+        <div class="left-column__profile">
+          <img
+            src="https://media.publit.io/file/profile-pic-i.png"
+            alt="profile-pic"
+            class="profile-pic"
+          />
+          <h1 class="user-name">Anglena Ohio</h1>
+          <h2 class="job-title">HR & Executive Manager</h2>
+        </div>
+        <div class="left-column__options">
+          <a href="dashboard.html">Profile</a>
+          <a href="financial-history.html" class="selected">Finacial History</a>
+          <a href="leave-tracker.html">Leave Tracker</a>
+          <a href="#">Attendance and overtime</a>
+          <a href="#">Paysheet</a>
+          <a href="#">Earlings</a>
+          <a href="#">Deductions</a>
+          <a href="#">Reimbursements</a>
+          <a href="#">End of Service</a>
+        </div>
+      </div>
+      <div class="right-column">
+        <div class="right-column__financial-status u-margin-right-sm u-width-enlargement">
+          <h1 class="container-header">Financial Status</h1>
+          <div class="container">
+            <div class="finance-info-card">
+              <img
+                src="https://media.publit.io/file/salary-mothly.svg"
+                alt="montly-salary"
+                class="finance-icon"
+              />
+              <h1 class="finance-title">Salary Monthly</h1>
+              <h1 class="finance-value">$500</h1>
+            </div>
+            <div class="finance-info-card">
+              <img
+                src="https://media.publit.io/file/salary-yearly.svg"
+                alt="yearly-salary"
+                class="finance-icon"
+              />
+              <h1 class="finance-title">Salary Yearly</h1>
+              <h1 class="finance-value">$500</h1>
+            </div>
+            <div class="finance-info-card">
+              <img
+                src="https://media.publit.io/file/total-paid.svg"
+                alt="total-paid"
+                class="finance-icon"
+              />
+              <h1 class="finance-title">Total Paid</h1>
+              <h1 class="finance-value">$500</h1>
+            </div>
+            <div class="finance-info-card">
+              <img
+                src="https://media.publit.io/file/total-bounes.svg"
+                alt="total-paid"
+                class="finance-icon"
+              />
+              <h1 class="finance-title">Total Bounes</h1>
+              <h1 class="finance-value">$500</h1>
+            </div>
+          </div>
+        </div>
+        <div class="right-column__financial-status u-margin-right-sm u-width-smallen">
+          <h1 class="container-header">Expected Increase in Salary</h1>
+          <div class="container">
+            <div class="finance-info-card">
+              <img
+                src="https://media.publit.io/file/increase-icon.svg"
+                alt="total-increase"
+                class="finance-icon"
+              />
+              <h1 class="finance-title">Total Increase</h1>
+              <h1 class="finance-value">$500</h1>
+            </div>
+            <div class="finance-info-card">
+              <img
+                src="https://media.publit.io/file/salary-after-increase.svg"
+                alt="yearly-salary"
+                class="finance-icon"
+              />
+              <h1 class="finance-title">Salary after Increase</h1>
+              <h1 class="finance-value">$500</h1>
+            </div>
+          </div>
+        </div>
+        <div class="right-column__salary-history">
+            <h1 class="container-header">Salary History</h1>
+            <button class="btn btn__current-month btn__selected">Current Month</button>
+            <button class="btn btn__select-date">Select a date</button>
+            <div class="salary-history__table">
+                <div class="salary-history__table-headers">
+                    <input type="checkbox" name="select-all" id="select-all" class="table-checkbox">
+                    <h1 class="table-header">Employee</h1>
+                    <h1 class="table-header">Payroll Month</h1>
+                    <h1 class="table-header">Pay Component</h1>
+                    <h1 class="table-header">Amount</h1>
+                    <h1 class="table-header">Description</h1>
+                    <h1 class="table-header">Bill Copy</h1>
+                </div>
+                <div class="salary-history__table-row">
+                    <input type="checkbox" name="select-all" id="select-all" class="table-checkbox">
+                    <h1 class="table-value" id="employee-name">Employee</h1>
+                    <h1 class="table-value" id="payroll-month">Payroll Month</h1>
+                    <h1 class="table-value" id="pay-component">Pay Component</h1>
+                    <h1 class="table-value" id="amount">Amount</h1>
+                    <h1 class="table-value" id="description">Description</h1>
+                    <h1 class="table-value" id="bill-copy">Bill Copy</h1>
+                </div>
+                <div class="salary-history__table-row">
+                    <input type="checkbox" name="select-all" id="select-all" class="table-checkbox">
+                    <h1 class="table-value" id="employee-name">Employee</h1>
+                    <h1 class="table-value" id="payroll-month">Payroll Month</h1>
+                    <h1 class="table-value" id="pay-component">Pay Component</h1>
+                    <h1 class="table-value" id="amount">Amount</h1>
+                    <h1 class="table-value" id="description">Description</h1>
+                    <h1 class="table-value" id="bill-copy">Bill Copy</h1>
+                </div>
+                <div class="salary-history__table-row">
+                    <input type="checkbox" name="select-all" id="select-all" class="table-checkbox">
+                    <h1 class="table-value" id="employee-name">Employee</h1>
+                    <h1 class="table-value" id="payroll-month">Payroll Month</h1>
+                    <h1 class="table-value" id="pay-component">Pay Component</h1>
+                    <h1 class="table-value" id="amount">Amount</h1>
+                    <h1 class="table-value" id="description">Description</h1>
+                    <h1 class="table-value" id="bill-copy">Bill Copy</h1>
+                </div>
+                <div class="salary-history__table-row">
+                    <input type="checkbox" name="select-all" id="select-all" class="table-checkbox">
+                    <h1 class="table-value" id="employee-name">Employee</h1>
+                    <h1 class="table-value" id="payroll-month">Payroll Month</h1>
+                    <h1 class="table-value" id="pay-component">Pay Component</h1>
+                    <h1 class="table-value" id="amount">Amount</h1>
+                    <h1 class="table-value" id="description">Description</h1>
+                    <h1 class="table-value" id="bill-copy">Bill Copy</h1>
+                </div>
+                <div class="salary-history__table-row">
+                    <input type="checkbox" name="select-all" id="select-all" class="table-checkbox">
+                    <h1 class="table-value" id="employee-name">Employee</h1>
+                    <h1 class="table-value" id="payroll-month">Payroll Month</h1>
+                    <h1 class="table-value" id="pay-component">Pay Component</h1>
+                    <h1 class="table-value" id="amount">Amount</h1>
+                    <h1 class="table-value" id="description">Description</h1>
+                    <h1 class="table-value" id="bill-copy">Bill Copy</h1>
+                </div>
+                <div class="salary-history__table-row">
+                    <input type="checkbox" name="select-all" id="select-all" class="table-checkbox">
+                    <h1 class="table-value" id="employee-name">Employee</h1>
+                    <h1 class="table-value" id="payroll-month">Payroll Month</h1>
+                    <h1 class="table-value" id="pay-component">Pay Component</h1>
+                    <h1 class="table-value" id="amount">Amount</h1>
+                    <h1 class="table-value" id="description">Description</h1>
+                    <h1 class="table-value" id="bill-copy">Bill Copy</h1>
+                </div>
+                <div class="salary-history__table-row">
+                    <input type="checkbox" name="select-all" id="select-all" class="table-checkbox">
+                    <h1 class="table-value" id="employee-name">Employee</h1>
+                    <h1 class="table-value" id="payroll-month">Payroll Month</h1>
+                    <h1 class="table-value" id="pay-component">Pay Component</h1>
+                    <h1 class="table-value" id="amount">Amount</h1>
+                    <h1 class="table-value" id="description">Description</h1>
+                    <h1 class="table-value" id="bill-copy">Bill Copy</h1>
+                </div>
+                <div class="salary-history__table-row">
+                    <input type="checkbox" name="select-all" id="select-all" class="table-checkbox">
+                    <h1 class="table-value" id="employee-name">Employee</h1>
+                    <h1 class="table-value" id="payroll-month">Payroll Month</h1>
+                    <h1 class="table-value" id="pay-component">Pay Component</h1>
+                    <h1 class="table-value" id="amount">Amount</h1>
+                    <h1 class="table-value" id="description">Description</h1>
+                    <h1 class="table-value" id="bill-copy">Bill Copy</h1>
+                </div>
+                <div class="salary-history__table-row">
+                    <input type="checkbox" name="select-all" id="select-all" class="table-checkbox">
+                    <h1 class="table-value" id="employee-name">Employee</h1>
+                    <h1 class="table-value" id="payroll-month">Payroll Month</h1>
+                    <h1 class="table-value" id="pay-component">Pay Component</h1>
+                    <h1 class="table-value" id="amount">Amount</h1>
+                    <h1 class="table-value" id="description">Description</h1>
+                    <h1 class="table-value" id="bill-copy">Bill Copy</h1>
+                </div>
+            </div>
+            <div class="pagination">
+                <img src="img/Icon ionic-ios-arrow-left.svg" alt="left-arrow" class="left-arrow">
+                <p>Page <span class="init-number">1</span> of <span class="total-number">20</span> </p>
+                <img src="img/Icon ionic-ios-arrow-right.svg" alt="right-arrow" class="right-arrow">
+            </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

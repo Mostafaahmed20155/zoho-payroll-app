@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leave Tracker</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="left-column">
+        <div class="left-column__profile">
+          <img
+            src="https://media.publit.io/file/profile-pic-i.png"
+            alt="profile-pic"
+            class="profile-pic"
+          />
+          <h1 class="user-name">Anglena Ohio</h1>
+          <h2 class="job-title">HR & Executive Manager</h2>
+        </div>
+        <div class="left-column__options">
+          <a href="dashboard.html">Profile</a>
+          <a href="financial-history.html">Finacial History</a>
+          <a href="leave-tracker.html" class="selected">Leave Tracker</a>
+          <a href="#">Attendance and overtime</a>
+          <a href="#">Paysheet</a>
+          <a href="#">Earlings</a>
+          <a href="#">Deductions</a>
+          <a href="#">Reimbursements</a>
+          <a href="#">End of Service</a>
+        </div>
+      </div>
+      <div class="right-column">
+        <div class="right-column__leave-request">
+          <h1 class="container-header">Leave Request Year 2019</h1>
+          <a href="#" class="btn-apply-now">Apply now</a>
+        </div>
+        <div class="right-column__leaves-cards">
+          <div class="leave-card">
+            <h1 class="container-header">Annual Leave</h1>
+            <div class="leave-card__info">
+              <img
+                src="https://media.publit.io/file/annual-leave.svg"
+                alt="annual-leave"
+                class="leave-icon"
+              />
+              <div class="row-data" id="row-available">
+                <h1 class="row-title">Available</h1>
+                <p class="row-value">29</p>
+              </div>
+              <div class="row-data" id="row-taken">
+                <h1 class="row-title">Taken</h1>
+                <p class="row-value">5</p>
+              </div>
+            </div>
+          </div>
+          <div class="leave-card">
+            <h1 class="container-header">Maternity Leave</h1>
+            <div class="leave-card__info">
+              <img
+                src="https://media.publit.io/file/maternity-leave.svg"
+                alt="maternity-leave"
+                class="leave-icon"
+              />
+              <div class="row-data" id="row-available">
+                <h1 class="row-title">Available</h1>
+                <p class="row-value">29</p>
+              </div>
+              <div class="row-data" id="row-taken">
+                <h1 class="row-title">Taken</h1>
+                <p class="row-value">5</p>
+              </div>
+            </div>
+          </div>
+          <div class="leave-card">
+            <h1 class="container-header">Sick Leave</h1>
+            <div class="leave-card__info">
+              <img
+                src="https://media.publit.io/file/sick-leave.svg"
+                alt="sick-leave"
+                class="leave-icon"
+              />
+              <div class="row-data" id="row-available">
+                <h1 class="row-title">Available</h1>
+                <p class="row-value">29</p>
+              </div>
+              <div class="row-data" id="row-taken">
+                <h1 class="row-title">Taken</h1>
+                <p class="row-value">5</p>
+              </div>
+            </div>
+          </div>
+          <div class="leave-card">
+            <h1 class="container-header">Sick Leave HP</h1>
+            <div class="leave-card__info">
+              <img
+                src="https://media.publit.io/file/sick-leave-hp.svg"
+                alt="sick-leave-hp"
+                class="leave-icon"
+              />
+              <div class="row-data" id="row-available">
+                <h1 class="row-title">Available</h1>
+                <p class="row-value">29</p>
+              </div>
+              <div class="row-data" id="row-taken">
+                <h1 class="row-title">Taken</h1>
+                <p class="row-value">5</p>
+              </div>
+            </div>
+          </div>
+          <div class="leave-card">
+            <h1 class="container-header">Sick Leave UP</h1>
+            <div class="leave-card__info">
+              <img
+                src="https://media.publit.io/file/sick-leave-up.svg"
+                alt="sick-leave-up"
+                class="leave-icon"
+              />
+              <div class="row-data" id="row-available">
+                <h1 class="row-title">Available</h1>
+                <p class="row-value">29</p>
+              </div>
+              <div class="row-data" id="row-taken">
+                <h1 class="row-title">Taken</h1>
+                <p class="row-value">5</p>
+              </div>
+            </div>
+          </div>
+          <div class="leave-card">
+            <h1 class="container-header">Unpaid Leaves</h1>
+            <div class="leave-card__info">
+              <img
+                src="https://media.publit.io/file/unpaid-leave.svg"
+                alt="unpaid-leave"
+                class="leave-icon"
+              />
+              <div class="row-data" id="row-available">
+                <h1 class="row-title">Available</h1>
+                <p class="row-value">29</p>
+              </div>
+              <div class="row-data" id="row-taken">
+                <h1 class="row-title">Taken</h1>
+                <p class="row-value">5</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right-column__leave-requests ">
+          <h1 class="container-header">Leave Request Applications</h1>
+          <button class="btn btn__upcoming btn__selected">Upcoming</button>
+          <button class="btn btn__history">History</button>
+          <div class="row-leave-request u-margin-top-xs">
+            <img src="https://media.publit.io/file/date-icon.svg" alt="date-icon" class="date-icon">
+            <h1 class="date-day">29 August,Thu</h1>
+            <h1 class="holiday-name">Holiday name</h1>
+          </div>
+          <div class="row-leave-request">
+            <img src="https://media.publit.io/file/date-icon.svg" alt="date-icon" class="date-icon">
+            <h1 class="date-day">29 August,Thu</h1>
+            <h1 class="holiday-name">Holiday name</h1>
+          </div>
+          <div class="row-leave-request">
+            <img src="https://media.publit.io/file/date-icon.svg" alt="date-icon" class="date-icon">
+            <h1 class="date-day">29 August,Thu</h1>
+            <h1 class="holiday-name">Holiday name</h1>
+          </div>
+          <div class="row-leave-request">
+            <img src="https://media.publit.io/file/date-icon.svg" alt="date-icon" class="date-icon">
+            <h1 class="date-day">29 August,Thu</h1>
+            <h1 class="holiday-name">Holiday name</h1>
+          </div>
+          <div class="row-leave-request">
+            <img src="https://media.publit.io/file/date-icon.svg" alt="date-icon" class="date-icon">
+            <h1 class="date-day">29 August,Thu</h1>
+            <h1 class="holiday-name">Holiday name</h1>
+          </div>
+
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
