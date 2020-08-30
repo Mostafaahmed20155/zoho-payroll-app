@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72.125" height="55.167" viewBox="0 0 72.125 55.167">
+  <g id="gross-deductions" transform="translate(0 -60.189)">
+    <path id="Path_84" data-name="Path 84" d="M0,69.166H15.545v7.415H0Z" transform="translate(0 -7.712)" fill="#ff4c2f"/>
+    <path id="Path_85" data-name="Path 85" d="M0,151.8H15.545v6.914H0Z" transform="translate(0 -78.709)" fill="#ff4c2f"/>
+    <path id="Path_86" data-name="Path 86" d="M140.351,151.8h16.411v6.914H140.351Z" transform="translate(-120.58 -78.709)" fill="#ff4c2f"/>
+    <path id="Path_87" data-name="Path 87" d="M212.023,289.2a7.089,7.089,0,1,0,7.089,7.09A7.1,7.1,0,0,0,212.023,289.2Z" transform="translate(-176.065 -196.746)" fill="#ff4c2f"/>
+    <path id="Path_88" data-name="Path 88" d="M484.254,244.513a9.444,9.444,0,0,0,3.909,1.94v-5.3A18.979,18.979,0,0,1,484.254,244.513Z" transform="translate(-416.038 -155.469)" fill="#ff4c2f"/>
+    <path id="Path_89" data-name="Path 89" d="M0,403.707v6.776H6.6A8.983,8.983,0,0,0,0,403.707Z" transform="translate(0 -295.127)" fill="#ff4c2f"/>
+    <path id="Path_90" data-name="Path 90" d="M463.7,410.464h6.8v-6.779A9.2,9.2,0,0,0,463.7,410.464Z" transform="translate(-398.376 -295.108)" fill="#ff4c2f"/>
+    <path id="Path_91" data-name="Path 91" d="M72.125,242.631a13.461,13.461,0,0,1-7.877-4.243,17.978,17.978,0,0,1-20.8-6.7H10.862A13.215,13.215,0,0,1,0,242.628v8.987a13.013,13.013,0,0,1,7.2,3.7,13.12,13.12,0,0,1,3.669,7.22H61.053a13.406,13.406,0,0,1,11.072-10.922v-8.984Zm-53.106,6.639H14.186v-4.22h4.832Zm16.939,8.92a11.309,11.309,0,1,1,11.309-11.309A11.322,11.322,0,0,1,35.957,258.191Zm22.275-8.92H53.4v-4.22h4.832Z" transform="translate(0 -147.344)" fill="#ff4c2f"/>
+    <path id="Path_92" data-name="Path 92" d="M6.618,229.884H0v6.884A8.992,8.992,0,0,0,6.618,229.884Z" transform="translate(0 -145.79)" fill="#ff4c2f"/>
+    <path id="Path_93" data-name="Path 93" d="M354.921,119.96a13.9,13.9,0,0,0,19.429-19.429Z" transform="translate(-304.924 -34.659)" fill="#ff4c2f"/>
+    <path id="Path_94" data-name="Path 94" d="M317.278,82.316l19.429-19.429a13.9,13.9,0,0,0-19.429,19.429Z" transform="translate(-270.265 0)" fill="#ff4c2f"/>
+  </g>
+</svg>

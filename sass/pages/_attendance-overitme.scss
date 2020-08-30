@@ -1,0 +1,64 @@
+.fixed-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.width-fix {
+    width: 100%;
+}
+
+.month-year {
+    display: flex;
+    align-items: center;  
+    margin-right: 2rem;
+    .bdaymonth {
+        font-size: 1.5rem;
+        font-weight: 700;
+    } 
+    #bdaymonth {
+        background-color: $color-secondary;
+        color: $color-primary;
+    }
+}
+
+.right-column {
+    &__cards {
+        width: 100%;
+        margin-top: 3rem;
+        display: flex;
+        justify-content: space-between;
+        .single-card {
+            width: 37.5%;
+            height: 12rem;
+            border-radius: 0.5rem;
+            @include dropShadow;
+            background-color: $color-primary;
+            padding: 2rem 6rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .card-icon {
+                width: 7rem;
+                // margin-right: 5rem;
+            }
+            .card-info {
+                display: flex;
+                // justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                .card-title {
+                    font-size: 2rem;
+                    font-weight: 600;
+                    margin-bottom: 1rem;
+                }
+                .card-value {
+                    font-size: 2.5rem;
+                    font-weight: 600;
+                    color: $color-secondary;
+                }
+            }
+        }
+    }
+}
