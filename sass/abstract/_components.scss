@@ -59,3 +59,41 @@
   color: $color-secondary;
   font-size: 2.5rem;
 }
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+
+  tr th {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #cfcfcf;
+  }
+  tr td {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #000000;
+  }
+
+}
+
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#month-year {
+  background-color: $color-secondary;
+  border: none;
+  outline: none;
+  border-radius: 0 0 1.5rem 1.5rem;
+  position: absolute;
+  font-size: 1.5rem;
+  font-family: inherit;
+  top: 0;
+  right: 3%;
+  color: $color-primary;
+  padding: 1rem;
+}

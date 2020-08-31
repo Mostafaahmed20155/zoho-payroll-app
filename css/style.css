@@ -47,6 +47,36 @@
   color: #FF4C2F;
   font-size: 2.5rem; }
 
+.table {
+  border-collapse: collapse;
+  width: 100%; }
+  .table tr th {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #cfcfcf; }
+  .table tr td {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #000000; }
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd; }
+
+#month-year {
+  background-color: #FF4C2F;
+  border: none;
+  outline: none;
+  border-radius: 0 0 1.5rem 1.5rem;
+  position: absolute;
+  font-size: 1.5rem;
+  font-family: inherit;
+  top: 0;
+  right: 3%;
+  color: #FFFFFF;
+  padding: 1rem; }
+
 *,
 *::before,
 *::after {
