@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paysheet</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="left-column">
+        <div class="left-column__profile">
+            <img src="https://media.publit.io/file/profile-pic-i.png" alt="profile-pic" class="profile-pic">
+            <h1 class="user-name">Anglena Ohio</h1>
+            <h2 class="job-title">HR & Executive Manager</h2>
+        </div>
+        <div class="left-column__options">
+            <a href="dashboard.html">Profile</a>
+            <a href="financial-history.html" class="selected">Finacial History</a>
+            <a href="leave-tracker.html">Leave Tracker</a>
+            <a href="attendance-overtime.html" >Attendance and overtime</a>
+            <a href="#" >Paysheet</a>
+            <a href="earnings.html" >Earnings</a>
+            <a href="deductions.html" >Deductions</a>
+            <a href="reimbursements.html" >Reimbursements</a>
+            <a href="end-of-service.html" >End of Service</a>
+        </div>
+    </div>
+      <div class="right-column">
+          <div class="right-column__header-section">
+              <div class="header-container-1">
+                  <div class="titles">
+                      <h1 class="container-header">Zylker Crop</h1>
+                      <h1 class="sub-header">585, Estancla Channel lorem ispum 6000z1, India</h1>
+                  </div>
+                  <div class="company-logo">
+                      <span>Company logo</span>
+                  </div>
+              </div>
+              <div class="header-container-2">
+                  <div class="title">
+                      <h1 class="container-header u-margin-top-small">You can print this payslip from here</h1>
+                  </div>
+                  <button class="print-btn">Print</button>
+              </div>
+          </div>
+          <div class="right-column__employee-card">
+            <h1 class="container-header">Employee Card</h1>
+            <div class="card-info">
+                <div class="card-icon">
+                    <img src="https://media.publit.io/file/user-card-icon.svg" alt="user-icon">
+                </div>
+                <div class="employee-info">
+                    <div class="row-field">
+                        <h1 class="title">Employee Name:</h1>
+                        <h1 class="info">Mostafa Saad</h1>
+                    </div>
+                    <div class="row-field">
+                        <h1 class="title">Designation:</h1>
+                        <h1 class="info">Lead Designer</h1>
+                    </div>
+                    <div class="row-field">
+                        <h1 class="title">Date of joining:</h1>
+                        <h1 class="info">20-09-2014</h1>
+                    </div>
+                    <div class="row-field">
+                        <h1 class="title">Pay period:</h1>
+                        <h1 class="info">June-2020</h1>
+                    </div>
+                    <div class="row-field">
+                        <h1 class="title">Pay Date:</h1>
+                        <h1 class="info">30-06-2020</h1>
+                    </div>
+                    <div class="row-field">
+                        <h1 class="title">PF A/C Number:</h1>
+                        <h1 class="info">54657454166874465</h1>
+                    </div>
+                    <div class="row-field">
+                        <h1 class="title">UAN Number:</h1>
+                        <h1 class="info">012345687945</h1>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="right-column__employee-finance">
+              <div class="row-finance">
+                  <div class="finance-container">
+                      <img src="https://media.publit.io/file/employee-net-salary.svg" alt="salary-icon">
+                      <div class="finance-info">
+                          <h1 class="finance-title">Employee Net Salary</h1>
+                          <h1 class="finance-value">$54654</h1>
+                      </div>
+                  </div>
+                  <div class="finance-container u-margin-left-sm">
+                    <img src="https://media.publit.io/file/gross-earnings-money.svg" alt="salary-icon">
+                    <div class="finance-info">
+                        <h1 class="finance-title">Gross Earnings</h1>
+                        <h1 class="finance-value">$54654</h1>
+                    </div>
+                  </div>
+              </div>
+              <div class="row-finance">
+                  <div class="finance-container u-margin-top-small">
+                    <img src="https://media.publit.io/file/total-deduction.svg" alt="salary-icon">
+                    <div class="finance-info">
+                        <h1 class="finance-title">Total Deductions</h1>
+                        <h1 class="finance-value">$54654</h1>
+                    </div>
+                  </div>
+                  <div class="finance-container u-margin-top-small u-margin-left-sm">
+                    <img src="https://media.publit.io/file/reimbursements-money.svg" alt="salary-icon">
+                    <div class="finance-info">
+                        <h1 class="finance-title">Reimbursements</h1>
+                        <h1 class="finance-value">$54654</h1>
+                    </div>
+                  </div>
+              </div>
+          </div>
+        <div class="right-column__salary-history full-width">
+            <h1 class="container-header">Income Details</h1>
+            <button class="btn btn__current-month btn__selected">Current Month</button>
+            <form action="#">
+              <input type="month" name="moth" id="month-year">
+            </form>
+            <!-- <button class="btn btn__select-date">Select a date</button> -->
+            <div class="salary-history__table">
+                <table class="table">
+                  <tr class="headers">
+                    <th>Employee</th>
+                    <th>Payroll Month</th> 
+                    <th>Pay Component</th>
+                    <th>Amount</th>
+                    <th>Description</th>
+                    <th>Bill Copy</th>
+                  </tr>
+                  <tr>
+                    <td>Jill</td>
+                    <td>Smith</td>
+                    <td>50</td>
+                    <td>50</td>
+                    <td>50</td>
+                    <td>50</td>
+                  </tr>
+                  <tr>
+                    <td>Eve</td>
+                    <td>Jackson</td>
+                    <td>94</td>
+                    <td>94</td>
+                    <td>94</td>
+                    <td>94</td>
+                  </tr>
+                  <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>80</td>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>80</td>
+                  </tr>
+                  <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>80</td>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>80</td>
+                  </tr>
+                  <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>80</td>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>80</td>
+                  </tr>
+                  <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>80</td>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>80</td>
+                  </tr>
+                  <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>80</td>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>80</td>
+                  </tr>
+                  <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>80</td>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>80</td>
+                  </tr>
+                </table> 
+            </div>
+            <div class="pagination u-margin-top-small">
+                <img src="img/Icon ionic-ios-arrow-left.svg" alt="left-arrow" class="left-arrow">
+                <p>Page <span class="init-number">1</span> of <span class="total-number">20</span> </p>
+                <img src="img/Icon ionic-ios-arrow-right.svg" alt="right-arrow" class="right-arrow">
+            </div>
+        </div>
+        <div class="right-column__salary-history full-width">
+            <h1 class="container-header">Reimbursements</h1>
+            <button class="btn btn__current-month btn__selected">Current Month</button>
+            <form action="#">
+              <input type="month" name="moth" id="month-year">
+            </form>
+            <!-- <button class="btn btn__select-date">Select a date</button> -->
+            <div class="salary-history__table">
+                <table class="table">
+                  <tr class="headers">
+                    <th>Employee</th>
+                    <th>Payroll Month</th> 
+                    <th>Pay Component</th>
+                    <th>Amount</th>
+                    <th>Description</th>
+                    <th>Bill Copy</th>
+                  </tr>
+                  <tr>
+                    <td>Jill</td>
+                    <td>Smith</td>
+                    <td>50</td>
+                    <td>50</td>
+                    <td>50</td>
+                    <td>50</td>
+                  </tr>
+                  <tr>
+                    <td>Eve</td>
+                    <td>Jackson</td>
+                    <td>94</td>
+                    <td>94</td>
+                    <td>94</td>
+                    <td>94</td>
+                  </tr>
+                  <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>80</td>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>80</td>
+                  </tr>
+                  <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>80</td>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>80</td>
+                  </tr>
+                  <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>80</td>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>80</td>
+                  </tr>
+                  <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>80</td>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>80</td>
+                  </tr>
+                  <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>80</td>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>80</td>
+                  </tr>
+                  <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>80</td>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>80</td>
+                  </tr>
+                </table> 
+            </div>
+            <div class="pagination u-margin-top-small">
+                <img src="img/Icon ionic-ios-arrow-left.svg" alt="left-arrow" class="left-arrow">
+                <p>Page <span class="init-number">1</span> of <span class="total-number">20</span> </p>
+                <img src="img/Icon ionic-ios-arrow-right.svg" alt="right-arrow" class="right-arrow">
+            </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

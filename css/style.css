@@ -111,9 +111,18 @@ body {
 .u-width-smallen {
   width: 30% !important; }
 
+.u-margin-left-sm {
+  margin-left: 3rem; }
+
+.full-width {
+  width: 100% !important; }
+
 @media only screen and (max-width: 1200px) {
   html {
-    font-size: 50%; } }
+    font-size: 50%; }
+  .right-column__employee-finance .finance-container img {
+    width: 6rem;
+    margin-right: 2rem; } }
 
 main {
   display: flex; }
@@ -572,3 +581,126 @@ main {
     font-size: 1.5rem !important; }
   .card-no-3 .card-value {
     font-size: 2rem !important; }
+
+.right-column__header-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; }
+  .right-column__header-section .header-container-1, .right-column__header-section .header-container-2 {
+    width: 49%;
+    background-color: #FFFFFF;
+    height: 11rem;
+    border-radius: 0.5rem;
+    box-shadow: 0rem 0.6rem 3rem rgba(0, 0, 0, 0.06);
+    display: flex; }
+  .right-column__header-section .sub-header {
+    font-size: 1.5rem;
+    color: #676767;
+    margin-left: 3rem;
+    margin-top: 1.5rem; }
+  .right-column__header-section .company-logo {
+    width: 20rem;
+    height: 7rem;
+    border-radius: 0.5rem;
+    background-color: #FF4C2F;
+    margin-left: auto;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto; }
+    .right-column__header-section .company-logo span {
+      font-size: 1.5rem;
+      color: #FFFFFF;
+      font-weight: 600; }
+  .right-column__header-section .header-container-2 {
+    justify-content: space-between; }
+    .right-column__header-section .header-container-2 .print-btn {
+      width: 20rem;
+      height: 7rem;
+      border: none;
+      background-color: #FF4C2F;
+      color: #FFFFFF;
+      border-radius: 0.5rem;
+      font-size: 1.8rem;
+      font-weight: 500;
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-right: 3rem; }
+
+.right-column__employee-card {
+  margin-top: 3rem;
+  min-height: 34.5rem;
+  background-color: #FFFFFF;
+  border-radius: 0.5rem;
+  box-shadow: 0rem 0.6rem 3rem rgba(0, 0, 0, 0.06); }
+  .right-column__employee-card .card-info {
+    width: 87%;
+    min-height: 23rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    display: flex; }
+    .right-column__employee-card .card-info .card-icon {
+      width: 21rem;
+      height: 23rem;
+      border: 0.1rem solid #FF4C2F;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 0.5rem; }
+      .right-column__employee-card .card-info .card-icon img {
+        width: 12rem; }
+    .right-column__employee-card .card-info .employee-info {
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+      .right-column__employee-card .card-info .employee-info .row-field {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 4rem; }
+        .right-column__employee-card .card-info .employee-info .row-field .title {
+          font-size: 1.5rem;
+          color: #676767; }
+        .right-column__employee-card .card-info .employee-info .row-field .info {
+          font-size: 1.5rem;
+          margin-left: auto; }
+
+.right-column__employee-finance {
+  margin-top: 3rem;
+  margin-left: 3rem;
+  width: 49%;
+  min-height: 34.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column; }
+  .right-column__employee-finance .row-finance {
+    width: 100%;
+    display: flex; }
+  .right-column__employee-finance .finance-container {
+    width: 49%;
+    height: 15.8rem;
+    background-color: #FFFFFF;
+    border-radius: 0.5rem;
+    box-shadow: 0rem 0.6rem 3rem rgba(0, 0, 0, 0.06);
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .right-column__employee-finance .finance-container img {
+      width: 8rem;
+      margin-right: 2rem; }
+    .right-column__employee-finance .finance-container .finance-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .right-column__employee-finance .finance-container .finance-info .finance-title {
+        font-size: 1.7rem;
+        color: #676767; }
+      .right-column__employee-finance .finance-container .finance-info .finance-value {
+        margin-top: 3.5rem;
+        font-size: 2.8rem;
+        color: #FF4C2F;
+        font-weight: 600; }

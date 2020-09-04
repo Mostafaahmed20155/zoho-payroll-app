@@ -1,0 +1,150 @@
+.right-column {
+    &__header-section {
+        width: 100%;
+        // min-height: 11rem;
+        // background-color: $color-primary;
+        display: flex;
+        justify-content: space-between;
+        .header-container-1, .header-container-2 {
+            width: 49%;
+            background-color: $color-primary;
+            height: 11rem;
+            border-radius: 0.5rem;
+            @include dropShadow;
+            display: flex;
+        }
+        .sub-header {
+            font-size: 1.5rem;
+            color: #676767;
+            margin-left: 3rem;
+            margin-top: 1.5rem;
+        }
+        .company-logo {
+            width: 20rem;
+            height: 7rem;
+            border-radius: 0.5rem;
+            background-color: $color-secondary;
+            margin-left: auto;
+            margin-right: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: auto;
+            margin-bottom: auto;
+            span {
+                font-size: 1.5rem;
+                color: $color-primary;
+                font-weight: 600;
+            }
+        }
+        .header-container-2 {
+            justify-content: space-between ;
+            .print-btn {
+                width: 20rem;
+                height: 7rem;
+                border: none;
+                background-color: $color-secondary;
+                color: $color-primary;
+                border-radius: 0.5rem;
+                font-size: 1.8rem;
+                font-weight: 500;
+                margin-top: auto;
+                margin-bottom: auto;
+                margin-right: 3rem;
+            }
+        }
+    }
+    &__employee-card {
+        margin-top: 3rem;
+        // width: 49%;
+        min-height: 34.5rem;
+        background-color: $color-primary;
+        border-radius: 0.5rem;
+        @include dropShadow;
+        .card-info {
+            width: 87%;
+            min-height: 23rem;
+            // background-color: navy;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 2rem;
+            display: flex;
+            .card-icon {
+                width: 21rem;
+                height: 23rem;
+                border: 0.1rem solid $color-secondary;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 0.5rem;
+                img {
+                    width: 12rem;
+                }
+            }
+            .employee-info {
+                width: 60%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .row-field {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-left: 4rem;
+                    .title {
+                        font-size: 1.5rem;
+                        color: #676767;
+                    }
+                    .info {
+                        font-size: 1.5rem;
+                        margin-left: auto;
+                    }
+                }
+            }
+        }
+    }
+    &__employee-finance {
+        margin-top: 3rem;
+        margin-left: 3rem;
+        width: 49%;
+        min-height: 34.5rem;
+        // background-color: navy;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        // flex-wrap: wrap;
+        .row-finance {
+            width: 100%;
+            display: flex;
+        }
+        .finance-container {
+            width: 49%;
+            height: 15.8rem;
+            background-color: $color-primary;
+            border-radius: 0.5rem;
+            @include dropShadow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                width: 8rem;
+                margin-right: 2rem;
+            }
+            .finance-info {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .finance-title {
+                    font-size: 1.7rem;
+                    color: #676767;
+                }
+                .finance-value {
+                    margin-top: 3.5rem;
+                    font-size: 2.8rem;
+                    color: $color-secondary;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
